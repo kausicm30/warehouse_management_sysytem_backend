@@ -28,6 +28,6 @@ app.get('**', function (req, res){
 });
 
 
-app.listen(process.env.PORT, function () {
+app.listen(process.env.PORT,'0.0.0.0', function () {
     console.log(`server listening on port ${process.env.PORT}`);
 });
